@@ -27,6 +27,7 @@ p{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
 
 }
 
@@ -35,6 +36,7 @@ p{
 .page{
     width: 100%;
     max-width: 1400px;
+    min-width: 768px;
     overflow: hidden;
     height: 100vh;
     min-height: 1300px;
@@ -62,7 +64,6 @@ p{
     color: #5f5d67;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.2rem;
     letter-spacing: 1px;
     border-right:1px solid #e1e1e1;
     transition: color .2s linear;
@@ -99,3 +100,19 @@ footer{
     opacity: 50%;
 
 }
+
+/* Media
+===========*/
+@media (max-width:1199px){
+    .header-nav a{
+        padding: 5px 30px;
+    }
+}
+
+@media (max-width:991px){
+    .header-nav a{
+        padding: 1px 10px;
+    }
+}
+
+
